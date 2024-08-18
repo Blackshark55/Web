@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-image: url('49.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .background {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .staff-portal {
+    background-color: #fff; /* white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* set a fixed width */
+    margin: 0 auto; /* center the portal */
+  }
+  
+  h2 {
+    color: #333; /* dark gray text */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #666; /* medium gray text */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* light gray border */
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0; /* light gray background */
+  }
+  
+  td {
+    background-color: #fff; /* white background */
+  }
+  
+  #upcoming-appointments, #past-appointments {
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd; /* added background color */
+}
+
+body {
+  background-image: url('48.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.services-container {
+  max-width: 800px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px; /* added padding */
+  background-color: #a9a9a9; /* added background color */
+  border-radius: 10px; /* added border radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added box shadow */
+}
+
+.service-card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  width: calc(33.33% - 40px);
+  border-radius: 10px; /* added border radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* added box shadow */
+  transition: all 0.3s ease-in-out; /* added transition effect */
+}
+
+.service-card:hover {
+  transform: scale(1.05); /* added hover effect */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* added hover effect */
+}
+
+.service-card h2 {
+  font-weight: bold;
+  margin-top: 0;
+  color: #333; /* changed text color */
+}
+
+.service-card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px; /* added margin bottom */
+}
+
+.service-card button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; /* added border radius */
+}
+
+.service-card button:hover {
+  background-color: #3e8e41;
+}
+
+@media (max-width: 600px) {
+  .service-card {
+    width: calc(50% - 40px);
+  }
+}
+
+@media (max-width: 400px) {
+  .service-card {
+    width: 100%;
+  }
+}

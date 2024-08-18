@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staff Portal - Appointments</title>
+  <link rel="stylesheet" href="Staff.css">
+</head>
+
+<body>
+  <div class="background">
+    <div class="staff-portal">
+      <h2>Staff Portal - Appointments</h2>
+      <div class="appointment-list">
+        <h3>Upcoming Appointments</h3>
+        <table id="upcoming-appointments">
+          <thead>
+            <tr>
+              <th>Patient Name</th>
+              <th>Service</th>
+              <th>Departure Date</th>
+              <th>Return Date</th>
+            </tr>
+          </thead>
+          <tbody id="upcoming-appointments-body">
+            <!-- PHP code to fetch upcoming appointments from database will go here -->
+          </tbody>
+        </table>
+
+        <h3>Past Appointments</h3>
+        <table id="past-appointments">
+          <thead>
+            <tr>
+              <th>Patient Name</th>
+              <th>Service</th>
+              <th>Date booked</th>
+              <th>Appointment Date</th>
+            </tr>
+          </thead>
+          <tbody id="past-appointments-body">
+            <!-- PHP code to fetch past appointments from database will go here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
